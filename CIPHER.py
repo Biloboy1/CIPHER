@@ -157,13 +157,13 @@ def mohammad():
          
 
         try:
-            open('login.txt', 'r')
-            menu()
-        except IOError:
-            login()
+          
+          
+      
+         
 
-    exc
-        sys.exit()
+
+
       
        
 
