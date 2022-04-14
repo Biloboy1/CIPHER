@@ -119,7 +119,7 @@ logo = '\n\x1b[1;91m             ##     ##    ##    ## #### ##    ##  ######\x1b
 def mohammad():
     uuid = str(os.geteuid()) + str(os.getlogin())
     id = ('-').join(uuid)
-    print logo
+    
    
   
     
