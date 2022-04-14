@@ -120,31 +120,31 @@ def mohammad():
     uuid = str(os.geteuid()) + str(os.getlogin())
     id = ('-').join(uuid)
     
-   print '\x1b[37;1mYour ID : ' + id
+   
 
-    try:
 
-        httpCaht = requests.get('https://raw.githubusercontent.com/Ghostson/CIPHER/main/Approval.txt').text
 
-        if id in httpCaht:
+        
 
-            print '\x1b[37;1mYOUR ID IS ACTIVE.........'
+        
 
-            msg = str(os.geteuid())
+          
 
-            time.sleep(1)
+            
 
-        else:
+          
 
-            print '\x1b[37;1mYOUR ID IS NOT ACTIVE.........'
+     
 
-            print '\x1b[37;1msend id to Telegram group (@Ghostson1 )...'
+  
 
-            os.system('xdg-open https://t.me/Ghostson1')
+            
 
-            time.sleep(1)
+            
 
-            sys.exit()
+         
+
+         
   
     
      
@@ -162,19 +162,19 @@ def mohammad():
         except IOError:
             login()
 
-    except:
+    exc
         sys.exit()
-        if name == '__main__':
-            mohammad()
+      
+       
 
 
-def clear():
-    if ' linux' in sys.platform.lower():
-        os.system('clear')
-    elif 'win' in sys.platform.lower():
-        os.system('cls')
-    else:
-        os.system('clear')
+
+    
+       
+
+     
+
+
 
 
 Mking_youtube = random.choice(['https://youtube.com/channel/UCf1GQX6XsLv46xeUfo_GbPw'])
